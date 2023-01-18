@@ -66,9 +66,10 @@ a {
 }
 
 .main-play {
-    height: 556px;
+    min-height: 556px;
     background: #000915;
     padding-top: 128px;
+    padding-bottom: 128px;
 }
 
 .main-play__box {
