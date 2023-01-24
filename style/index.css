@@ -92,22 +92,29 @@ a {
 }
 
 .main-play__link:nth-child(1) {
-  background-image: url(/img/play1.jpg);
+  background-image: url(./img/play1.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
 }
 
 .main-play__link:nth-child(2) {
-  background-image: url(/img/play2.jpg);
+  background-image: url(./img/play2.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
 }
 
 .main-play__link:nth-child(3) {
-  background-image: url(/img/play3.jpg);
+  background-image: url(./img/play3.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+}
+
+@media (max-width: 767px) {
+  .center {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
 }/*# sourceMappingURL=index.css.map */

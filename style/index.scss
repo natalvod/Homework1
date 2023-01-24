@@ -92,24 +92,24 @@ a {
 }
 
 .main-play__link:nth-child(1) {
-    background-image: url(/img/play1.jpg);
+    background-image: url(./img/play1.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
 }
 
 .main-play__link:nth-child(2) {
-    background-image: url(/img/play2.jpg);
+    background-image: url(./img/play2.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
 }
 
 .main-play__link:nth-child(3) {
-    background-image: url(/img/play3.jpg);
+    background-image: url(./img/play3.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
 }
 
-@import 'media'
+@import 'media';
