@@ -1,3 +1,15 @@
+@keyframes myAnim {
+	0% {
+		opacity: 0;
+		transform: translateY(-80px);
+	}
+
+	100% {
+		opacity: 1;
+		transform: translateY(0);
+	}
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -35,6 +47,7 @@ a {
     color: #FFFFFF;
     max-width: 788px;
     margin-bottom: 32px;
+    animation: myAnim 1.5s ease 0s 1 normal forwards;
 }
 
 .header__text {
@@ -63,6 +76,12 @@ a {
     background: #9C0332;
     border-radius: 30px;
     justify-content: center;
+    transition: all .3s;
+
+    &:hover {
+        text-decoration: underline;
+        transform: scale(1.04) ;
+    }
 }
 
 .main-play {
@@ -89,6 +108,12 @@ a {
     font-size: 24px;
     line-height: 32px;
     color: #FFFFFF;
+    transition: all .5s;
+
+    &:hover {
+        text-decoration: underline;
+        transform: translateY(-50px);
+    }
 }
 
 .main-play__link:nth-child(1) {
