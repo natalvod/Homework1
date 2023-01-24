@@ -183,4 +183,10 @@ a {
     padding-left: calc(50% - 350px);
     padding-right: calc(50% - 350px);
   }
+}
+@media (min-width: 1024px) and (max-width: 1200px) {
+  .center {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
 }/*# sourceMappingURL=index.css.map */

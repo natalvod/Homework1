@@ -49,3 +49,11 @@
         padding-right: calc(50% - 700px/2);
     }
 }
+
+@media (min-width: 1024px) and (max-width: 1200px) {
+    .center {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+   
+}
