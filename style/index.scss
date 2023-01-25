@@ -47,7 +47,7 @@ a {
     color: #FFFFFF;
     max-width: 788px;
     margin-bottom: 32px;
-    animation: myAnim 1.5s ease 0s 1 normal forwards;
+    animation: myAnim 2s ease 0s 1 normal forwards;
 }
 
 .header__text {
@@ -79,8 +79,8 @@ a {
     transition: all .3s;
 
     &:hover {
-        text-decoration: underline;
-        transform: scale(1.04) ;
+        background: #EB443F; 
+        transform: scale(1.03);
     }
 }
 
@@ -108,11 +108,12 @@ a {
     font-size: 24px;
     line-height: 32px;
     color: #FFFFFF;
-    transition: all .5s;
+    outline: none;
+    transition: transform .3s;
 
     &:hover {
-        text-decoration: underline;
-        transform: translateY(-50px);
+        border: 3px solid #44D2FF;
+        transform: translateY(-5px);
     }
 }
 
@@ -124,7 +125,7 @@ a {
 }
 
 .main-play__link:nth-child(2) {
-    background-image: url(../img/play1.jpg);
+    background-image: url(../img/play2.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;

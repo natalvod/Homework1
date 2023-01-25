@@ -28,6 +28,15 @@
 
     }
 
+    .main-play__box {
+        justify-content: center;
+    }
+
+    .main-play__link {
+      width: 343px;
+      height: 300px;
+    }
+
     .main-play {
         &__box {
             flex-wrap: wrap;
@@ -47,6 +56,10 @@
     .center {
         padding-left: calc(50% - 700px/2);
         padding-right: calc(50% - 700px/2);
+    }
+
+    .header__title {
+        text-align: center;
     }
 }
 
