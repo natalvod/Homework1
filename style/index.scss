@@ -1,3 +1,15 @@
+@keyframes myAnim {
+	0% {
+		opacity: 0;
+		transform: translateY(-80px);
+	}
+
+	100% {
+		opacity: 1;
+		transform: translateY(0);
+	}
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -35,6 +47,7 @@ a {
     color: #FFFFFF;
     max-width: 788px;
     margin-bottom: 32px;
+    animation: myAnim 2s ease 0s 1 normal forwards;
 }
 
 .header__text {
@@ -63,6 +76,12 @@ a {
     background: #9C0332;
     border-radius: 30px;
     justify-content: center;
+    transition: all .3s;
+
+    &:hover {
+        background: #EB443F; 
+        transform: scale(1.03);
+    }
 }
 
 .main-play {
@@ -89,25 +108,34 @@ a {
     font-size: 24px;
     line-height: 32px;
     color: #FFFFFF;
+    outline: none;
+    transition: transform .3s;
+
+    &:hover {
+        border: 3px solid #44D2FF;
+        transform: translateY(-5px);
+    }
 }
 
 .main-play__link:nth-child(1) {
-    background-image: url(/img/play1.jpg);
+    background-image: url(../img/play1.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
 }
 
 .main-play__link:nth-child(2) {
-    background-image: url(/img/play2.jpg);
+    background-image: url(../img/play2.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
 }
 
 .main-play__link:nth-child(3) {
-    background-image: url(/img/play3.jpg);
+    background-image: url(../img/play3.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
 }
+
+@import 'media';
