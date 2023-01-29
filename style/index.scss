@@ -90,7 +90,7 @@ a {
     min-height: 556px;
     background: #000915;
     padding-top: 128px;
-    
+
 }
 
 .main-play__box {
@@ -143,10 +143,11 @@ a {
 .play-content {
     padding-top: 362px;
     padding-bottom: 233px;
+
     &__box {
         display: flex;
         gap: 135px;
-        
+
     }
 
     &__info {
@@ -160,12 +161,21 @@ a {
         font-weight: 700;
         font-size: 48px;
         line-height: 59px;
+        animation: myAnim 2s ease 2s 1 normal forwards;
     }
 
     &__text {
         font-weight: 300;
         font-size: 18px;
         line-height: 32px;
+    }
+
+    &__picture {
+        transition: .5s;
+
+        &:hover {
+            transform: scale(1.05);
+        }
     }
 }
 

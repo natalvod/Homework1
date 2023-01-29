@@ -164,11 +164,19 @@ a {
   font-weight: 700;
   font-size: 48px;
   line-height: 59px;
+  -webkit-animation: myAnim 2s ease 2s 1 normal forwards;
+          animation: myAnim 2s ease 2s 1 normal forwards;
 }
 .play-content__text {
   font-weight: 300;
   font-size: 18px;
   line-height: 32px;
+}
+.play-content__picture {
+  transition: 0.5s;
+}
+.play-content__picture:hover {
+  transform: scale(1.05);
 }
 
 @media (max-width: 767px) {
