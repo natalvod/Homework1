@@ -1,30 +1,53 @@
 <!DOCTYPE html>
 <html lang="ru">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;1,100&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style/index.css">
-</head>
-<body>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;1,100&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style/index.css" />
+  </head>
+  <body>
     <header class="header center">
-        <h1 class="header__title">Добро пожаловать на мой сайт !</h1>
-        <p class="header__text">Вам предстоит пройти несколько увлекательных игр. Если готов нажимай <span class="span-go">поехали</span> и <span class="doit">приступай</span>
-        </p>
-        <a class="header__link" href="#">Поехали!</a>
+      <h1 class="header__title">Добро пожаловать на мой сайт !</h1>
+      <p class="header__text">
+        Вам предстоит пройти несколько увлекательных игр. Если готов нажимай
+        <span class="span-go">поехали</span> и
+        <span class="doit">приступай</span>
+      </p>
+      <a class="header__link link__go" href="#">Поехали!</a>
     </header>
     <main class="main-play center">
-        <section class="main-play__section">
-            <div class="main-play__box">
-                <a class="main-play__link main-play__link--play1" href="#">Игра 1</a>
-                <a class="main-play__link" href="#">Игра 2</a>
-                <a class="main-play__link" href="#">Игра 3</a>
+      <section class="main-play__section">
+        <div class="main-play__box">
+          <a class="main-play__link main-play__link--play1" href="#">Игра 1</a>
+          <a class="main-play__link" href="#">Игра 2</a>
+          <a class="main-play__link" href="#">Игра 3</a>
+        </div>
+      </section>
+      <section class="play-content">
+        <div class="play-content__box">
+            <div class="play-content__info">
+                <h2 class="play-content__heading">Времена года!</h2>
+                <p class="play-content__text">
+                  Нажмите кнопку играть, введите номер месяца (от 1 до 12) и вы
+                  узнаете к какому времени года он относится
+                </p>
+                <a class="play-content__link link__go" href="#">Играть!</a>
             </div>
-        </section>
+            <picture>
+                <source media="(max-width: 767px)" srcset="../img/play1-media.png">
+                <source media="(min-width: 768px)" srcset="../img/play1.png">
+                <img src="../img/play1.png" alt="Девочка и мальчик на фоне приставки и наушников">
+                </picture>
+        </div>
+      </section>
     </main>
-</body>
+  </body>
 </html>

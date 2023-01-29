@@ -33,14 +33,45 @@
     }
 
     .main-play__link {
-      width: 343px;
-      height: 300px;
+        width: 343px;
+        height: 300px;
     }
 
     .main-play {
         &__box {
             flex-wrap: wrap;
         }
+    }
+
+    .play-content {
+        padding-bottom: 85px;
+        padding-top: 178px;
+        &__box {
+            gap: 64px;
+            flex-wrap: wrap;
+        }
+
+        &__info {
+            max-width: 343px;
+        }
+
+        &__heading {
+            font-size: 32px;
+            line-height: 39px;
+            text-align: center;
+        }
+
+        &__text {
+            font-weight: 300;
+            font-size: 14px;
+            line-height: 22px;
+            text-align: center;
+        }
+
+        &__link {
+            margin: auto;
+        }
+
     }
 }
 
@@ -61,6 +92,10 @@
     .header__title {
         text-align: center;
     }
+
+    .play-content__box {
+        flex-wrap: wrap;
+    }
 }
 
 @media (min-width: 1024px) and (max-width: 1200px) {
@@ -68,5 +103,5 @@
         padding-left: 30px;
         padding-right: 30px;
     }
-   
+
 }
