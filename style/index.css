@@ -92,6 +92,7 @@ a {
 .link__go:hover {
   background: #EB443F;
   transform: scale(1.03);
+  cursor: pointer;
 }
 
 .main-play {
