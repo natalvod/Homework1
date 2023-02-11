@@ -46,9 +46,16 @@
     .play-content {
         padding-bottom: 85px;
         padding-top: 178px;
+        &--play2 {
+            padding-top: 51px;
+            padding-bottom: 85px;
+        }
         &__box {
             gap: 64px;
             flex-wrap: wrap;
+            &--play2{
+                flex-wrap: wrap-reverse;
+            }
         }
 
         &__info {
@@ -95,6 +102,11 @@
 
     .play-content__box {
         flex-wrap: wrap;
+        justify-content: center;
+        &--play2 {
+            flex-wrap: wrap-reverse;
+            justify-content: center;
+        }
     }
 }
 

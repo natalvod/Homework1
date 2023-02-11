@@ -140,6 +140,10 @@ a {
   padding-top: 362px;
   padding-bottom: 233px;
 }
+.play-content--play2 {
+  padding-top: 239px;
+  padding-bottom: 239px;
+}
 .play-content__box {
   display: flex;
   gap: 135px;
@@ -206,9 +210,16 @@ a {
     padding-bottom: 85px;
     padding-top: 178px;
   }
+  .play-content--play2 {
+    padding-top: 51px;
+    padding-bottom: 85px;
+  }
   .play-content__box {
     gap: 64px;
     flex-wrap: wrap;
+  }
+  .play-content__box--play2 {
+    flex-wrap: wrap-reverse;
   }
   .play-content__info {
     max-width: 343px;
@@ -244,6 +255,11 @@ a {
   }
   .play-content__box {
     flex-wrap: wrap;
+    justify-content: center;
+  }
+  .play-content__box--play2 {
+    flex-wrap: wrap-reverse;
+    justify-content: center;
   }
 }
 @media (min-width: 1024px) and (max-width: 1200px) {

@@ -144,7 +144,10 @@ a {
 .play-content {
     padding-top: 362px;
     padding-bottom: 233px;
-
+    &--play2 {
+        padding-top: 239px;
+        padding-bottom: 239px;
+    }
     &__box {
         display: flex;
         gap: 135px;
