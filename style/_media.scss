@@ -53,6 +53,7 @@
         &__box {
             gap: 64px;
             flex-wrap: wrap;
+            justify-content: center;
             &--play2{
                 flex-wrap: wrap-reverse;
             }

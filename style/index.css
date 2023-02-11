@@ -217,6 +217,7 @@ a {
   .play-content__box {
     gap: 64px;
     flex-wrap: wrap;
+    justify-content: center;
   }
   .play-content__box--play2 {
     flex-wrap: wrap-reverse;
