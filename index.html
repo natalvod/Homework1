@@ -54,6 +54,28 @@
           </picture>
         </div>
       </section>
+      <section class="play-content play-content--play2">
+        <div class="play-content__box play-content__box--play2">
+          <picture class="play-content__picture">
+            <source
+              media="(max-width: 767px)"
+              srcset="../img/play2-media.png"
+            />
+            <source media="(min-width: 768px)" srcset="../img/play2.png" />
+            <img
+              src="../img/play1.png"
+              alt="Девочка и мальчик стоят по бокам от огромной приставки"
+            />
+          </picture>
+          <div class="play-content__info">
+            <h2 class="play-content__heading">Запомни слова</h2>
+            <p class="play-content__text">
+              При нажатии на кнопку играть, вы увидите несколько слов, которые вам необходимо запомнить.
+            </p>
+            <button onclick="memoryFruit();" class="play-content__link link__go">Играть!</button>
+          </div>
+        </div>
+      </section>
     </main>
     <script src="index.js"></script>
   </body>
